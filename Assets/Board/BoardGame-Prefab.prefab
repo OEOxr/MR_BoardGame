@@ -101,7 +101,7 @@ Transform:
   m_GameObject: {fileID: 844793316978880549}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.32359993, z: 0}
+  m_LocalPosition: {x: -0.24, y: 0.0453, z: -0.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -530,7 +530,7 @@ Transform:
   m_GameObject: {fileID: 1921014237737547240}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.255, y: -0.2757, z: -0.2948}
+  m_LocalPosition: {x: -0.255, y: -0.2757, z: -0.2623}
   m_LocalScale: {x: 0.4, y: 0.40000007, z: 0.40000007}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5838e892-31a4-4f65-a415-dc108aefa14c
-  instanceId: 4d0147e2-0a92-43ea-968a-59fff5b4f9e1
+  instanceId: 02e0d372-009a-42b9-a3de-5c8b9c722a63
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -574,9 +574,9 @@ MonoBehaviour:
   _data: {fileID: 0}
   _pointableElement: {fileID: 0}
   _surfacePatch: {fileID: 1842815559616289035}
-  _enterHoverNormal: 0.03
+  _enterHoverNormal: 0.015
   _enterHoverTangent: 0
-  _exitHoverNormal: 0.05
+  _exitHoverNormal: 0.02
   _exitHoverTangent: 0
   _cancelSelectNormal: 0.3
   _cancelSelectTangent: 0.03
@@ -1238,7 +1238,7 @@ Transform:
   m_GameObject: {fileID: 3401396838057509131}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.018}
+  m_LocalPosition: {x: 0, y: -0.077, z: -0.018}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1360,11 +1360,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3444565483011914718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aed145077cbc4175b6a6c0f8dfb612d, type: 3}
+  m_Script: {fileID: 11500000, guid: 167512e6014be44d5bd95f84670dec44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   activecolor: {r: 1, g: 0, b: 0, a: 1}
-  gamemanager: {fileID: 439992055736882639}
+  gamemanager: {fileID: 0}
 --- !u!1 &3707807775753519388
 GameObject:
   m_ObjectHideFlags: 0
@@ -2655,7 +2655,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1901
+  m_VersionIndex: 1904
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2794,7 +2794,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5789156114212853568}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfb84cb7c7fc84715a89b2d56f910978, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ccea41540b02440fa38eb94763c97b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   no: 0
@@ -6272,6 +6272,10 @@ PrefabInstance:
     - target: {fileID: 2880280720966317274, guid: fb88bd654e83e46df80a4e0804230d97, type: 3}
       propertyPath: m_Name
       value: Brick (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103748766853268824, guid: fb88bd654e83e46df80a4e0804230d97, type: 3}
+      propertyPath: mytype
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8103748766853268824, guid: fb88bd654e83e46df80a4e0804230d97, type: 3}
       propertyPath: brickno

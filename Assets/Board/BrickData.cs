@@ -11,6 +11,7 @@ using UnityEngine;
  */
 
 //oyundaki taşların çeşitleri
+
 public enum CellType
 {
     empty = 0,

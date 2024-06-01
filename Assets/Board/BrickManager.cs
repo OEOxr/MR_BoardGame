@@ -22,6 +22,7 @@ public class BrickManager : MonoBehaviour
         
     }
 
+    
     public void NumerateBricks()
     {
         for(int i=0;i<transform.childCount;i++)
