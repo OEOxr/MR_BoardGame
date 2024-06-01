@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class ndCoinAnim : MonoBehaviour
 {
-
+    /*
+     * Atanan objeye dönme animasyonu ekler.
+     * Jeton için kullanıldı
+     * 
+     */
     public float ang = 0.015f;
     public float angRNG = 0.6f;
     public Vector3 myaxis = Vector3.up;

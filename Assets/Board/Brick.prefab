@@ -119,3 +119,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mytype: 0
+  brickno: 0
+  konfeti: {fileID: 4159426550685079291, guid: e6d25125aa15c4428a861260422a989a, type: 3}

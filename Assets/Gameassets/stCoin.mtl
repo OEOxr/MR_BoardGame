@@ -1,0 +1,8 @@
+newmtl Coin-border
+Kd 1 0.8341393 0
+d 1
+
+newmtl Coin-Face
+Kd 1 0.665265 0
+d 1
+
