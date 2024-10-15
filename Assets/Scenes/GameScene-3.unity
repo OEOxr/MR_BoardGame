@@ -23725,7 +23725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnOnStart: 2
   SpawnObject: {fileID: 7104043990599885741, guid: 3b45ca5aab649477e907ef640af7a2ea, type: 3}
-  SpawnAmount: 3
+  SpawnAmount: 1
   MaxIterations: 1000
   SpawnLocations: 3
   Labels: 136
